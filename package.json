@@ -1,0 +1,25 @@
+{
+  "name": "exerciselog",
+  "version": "1.0.0",
+  "description": "logging your workouts",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odymosgr/exerciseLog.git"
+  },
+  "author": "Odysseas Moschidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odymosgr/exerciseLog/issues"
+  },
+  "homepage": "https://github.com/odymosgr/exerciseLog#readme"
+}
