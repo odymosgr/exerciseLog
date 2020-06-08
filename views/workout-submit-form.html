@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Workout</title>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Create Workout</h1>
+      <p>Here you can create your own Workout</p>
+    </header>
+    <div class="create-workout-form">
+      <form action="/createWorkout " method="POST">
+        <div>
+          <label for="workout-title">Title</label>
+          <input id="workout-title" type="text">
+          <label for="workout-version">Version</label>
+          <input id="workout-version" type="text" value="1.0">
+        </div>
+        <div>
+          <label for="workout-description">Description</label>
+          <input id="workout-description" type="textarea">
+        </div>
+        <div class="group">
+          <label for="workout-group-1--sets-1">Sets</label>
+          <input id="workout-group-1--sets-1" class="sets" type="number" min="1" max="500" value="1">
+          <label for="workout-group-1--exercise-1">Exercise</label>
+          <input id="workout-group-1--exercise-1" class="exercise" type="text">
+          <label for="workout-group-1--reps-1">Reps</label>
+          <input id="workout-group-1--reps-1" class="number" type="number" min="1" max="500" placeholder="10">
+          <button id="add-superset-exercise-1" class="add-superset-exercise" type="button">Superset an Exercise</button>
+        </div>
+        <div>
+          <button id="add-exercise" class="add-exercise" type="button">Add Exercise</button>
+        </div>
+        <button type="submit">Create Workout</button>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>
